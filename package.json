@@ -1,0 +1,30 @@
+{
+  "name": "apichallengertests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "testui": "npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen",
+    "allureFile": "npx allure awesome ./allure-results --single-file",
+    "allureGen": "npx allure awesome ./allure-results",
+    "allureView": "npx serve ./allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyshukan554-ship-it/apiChallengerTests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreyshukan554-ship-it/apiChallengerTests/issues"
+  },
+  "homepage": "https://github.com/andreyshukan554-ship-it/apiChallengerTests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
