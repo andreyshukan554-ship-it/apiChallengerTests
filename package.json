@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "APISPEC": "npx playwright test --grep @APISPEC",
+    "apispec": "npx playwright test --grep @APISPEC",
     "testui": "npx playwright test --ui",
     "report": "npx playwright show-report",
     "codegen": "npx playwright codegen",
